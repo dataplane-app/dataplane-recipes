@@ -5,7 +5,7 @@
 ## Office 365
 
 * [Register an Azure app](office-365/register-an-azure-app.md)
-* [Sharepoint API](office-365/sharepoint-api.md)
+* [Sharepoint API with Python](office-365/sharepoint-api-with-python.md)
 
 ## S3 Compatible Storage
 
