@@ -21,6 +21,6 @@ d. Select Application Permissions - this allows a server side application to int
 * Sites.FullControl.All - allows the creation of a Sharepoint site
 * Sites.ReadWrite.All - allows reading and writing files to a Sharepoint site.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 {% embed url="https://gist.github.com/feabced59a82e45859f3da3db463c222.git" %}

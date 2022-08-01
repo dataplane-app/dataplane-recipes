@@ -9,7 +9,7 @@ To interact with Office 365 APIs, you need to register an Azure app in Azure Por
 
 3\. Create an app
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 4\. Create a secret
 
@@ -38,8 +38,9 @@ These variables will be used to authenticate with the Microsoft Graph API
 * Add the Secret ID  - Environment variable: <mark style="color:purple;">secret\_</mark>_<mark style="color:purple;">dp</mark>_<mark style="color:purple;">\_office\_</mark>_<mark style="color:purple;">365\_</mark>_<mark style="color:purple;">id</mark>
 * Add the Secret   - Environment variable: <mark style="color:purple;">secret\_</mark>_<mark style="color:purple;">dp</mark>_<mark style="color:purple;">\_office\_</mark>_<mark style="color:purple;">365\_secret</mark>_
 * Tenant ID - Environment variable: <mark style="color:purple;">secret\_</mark>_<mark style="color:purple;">dp</mark>_<mark style="color:purple;">\_office\_</mark>_<mark style="color:purple;">365\_tenant\_id</mark>_
+* Application ID - Environment variable: <mark style="color:purple;">secret\_</mark>_<mark style="color:purple;">dp</mark>_<mark style="color:purple;">\_office\_</mark>_<mark style="color:purple;">365\_application\_id</mark>_
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 ![](<../.gitbook/assets/image (6).png>)
 
@@ -47,11 +48,16 @@ These variables will be used to authenticate with the Microsoft Graph API
 
 a. Click on Overview
 
-b. Get the Directory (Tenant) ID&#x20;
+b. Get the Application (client) ID&#x20;
 
-![](<../.gitbook/assets/image (2).png>)
+c. Get the Directory (tenant) ID&#x20;
 
-c. Add Directory (Tenant) ID into Dataplane secrets
+c. Add Directory (tenant) ID and Application (client) ID into Dataplane secrets
+
+
+
+![](<../.gitbook/assets/image (3).png>)
 
 ![](<../.gitbook/assets/image (4).png>)
 
+![](../.gitbook/assets/image.png)
