@@ -1,5 +1,7 @@
 # Register an Azure app
 
+### Azure app creation
+
 To interact with Office 365 APIs, you need to register an Azure app in Azure Portal. Once an app is created, assign specific API permissions that you need.&#x20;
 
 1. Login at [https://portal.azure.com](https://portal.azure.com)
@@ -11,7 +13,7 @@ To interact with Office 365 APIs, you need to register an Azure app in Azure Por
 
 ![](<../.gitbook/assets/image (1) (1).png>)
 
-4\. Create a secret
+### Create authentication secrets
 
 {% hint style="danger" %}
 It is important to keep these credentials safe using a key store. It is good security practice not to hard code the secret in your code. Do not share secrets as this will compromise the safety and security of your data. You can use Dataplane's secrets to store these credentials. Learn more here: [https://learn.dataplane.app/managing-secrets](https://learn.dataplane.app/managing-secrets)
@@ -59,5 +61,11 @@ c. Add Directory (tenant) ID and Application (client) ID into Dataplane secrets
 ![](<../.gitbook/assets/image (3).png>)
 
 ![](<../.gitbook/assets/image (4).png>)
+
+![](<../.gitbook/assets/image (8).png>)
+
+### Add Secrets to worker groups
+
+Be sure to add the secrets to the worker groups. This is important because it injects the secrets into specific worker groups for isolation. See below a secret being added to the python\_dev worker group.
 
 ![](../.gitbook/assets/image.png)
