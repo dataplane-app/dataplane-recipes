@@ -23,7 +23,7 @@ b. Click on New client secret
 
 c. Store the value and secret ID in your Key Management System
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 5\. Add secrets to Dataplane
 
@@ -31,9 +31,27 @@ c. Store the value and secret ID in your Key Management System
 The environment variables shown in the images below will be used to safely to retrieve the secrets inside the pipelines.
 {% endhint %}
 
-* Add the Secret ID
-* Add the Secret
+
+
+These variables will be used to authenticate with the Microsoft Graph API
+
+* Add the Secret ID  - Environment variable: <mark style="color:purple;">secret\_</mark>_<mark style="color:purple;">dp</mark>_<mark style="color:purple;">\_office\_</mark>_<mark style="color:purple;">365\_</mark>_<mark style="color:purple;">id</mark>
+* Add the Secret   - Environment variable: <mark style="color:purple;">secret\_</mark>_<mark style="color:purple;">dp</mark>_<mark style="color:purple;">\_office\_</mark>_<mark style="color:purple;">365\_secret</mark>_
+* Tenant ID - Environment variable: <mark style="color:purple;">secret\_</mark>_<mark style="color:purple;">dp</mark>_<mark style="color:purple;">\_office\_</mark>_<mark style="color:purple;">365\_tenant\_id</mark>_
 
 ![](../.gitbook/assets/image.png)
 
 ![](<../.gitbook/assets/image (6).png>)
+
+**Get the Tenant ID from your app**
+
+a. Click on Overview
+
+b. Get the Directory (Tenant) ID&#x20;
+
+![](<../.gitbook/assets/image (2).png>)
+
+c. Add Directory (Tenant) ID into Dataplane secrets
+
+![](<../.gitbook/assets/image (4).png>)
+

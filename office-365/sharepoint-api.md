@@ -14,7 +14,7 @@ c. Find Sharepoint
 
 d. Select Application Permissions - this allows a server side application to interact with the Sharepoint API.&#x20;
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 **Select permissions that is needed**
 
@@ -23,3 +23,4 @@ d. Select Application Permissions - this allows a server side application to int
 
 ![](<../.gitbook/assets/image (3).png>)
 
+{% embed url="https://gist.github.com/feabced59a82e45859f3da3db463c222.git" %}
